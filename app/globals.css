@@ -24,4 +24,31 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  /* Base gradient for all boxes */
+  .custom-gradient {
+    background: linear-gradient(0deg, #3D3E42, #3D3E42),
+      linear-gradient(270deg, rgba(61, 62, 66, 0) 0%, #1A1B1C 100%),
+      linear-gradient(180deg, #1A1B1C 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  /* Dark gradient on top */
+  .gradient-top {
+    background:
+      linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(61, 62, 66, 0) 100%),
+      linear-gradient(0deg, #3D3E42, #1A1B1C);
+  }
+
+  /* Dark gradient on left */
+  .gradient-left {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(61, 62, 66, 0) 100%),
+      linear-gradient(0deg, #3D3E42, #1A1B1C);
+  }
+
+  /* Dark gradient on right */
+  .gradient-right {
+    background:
+      linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(61, 62, 66, 0) 100%),
+      linear-gradient(0deg, #3D3E42, #1A1B1C);
+  }
 }
