@@ -144,7 +144,7 @@ export default function Home() {
             <p>
               With over 4 years of experience in front-end development,
               I specialize in building high-performance, user-friendly applications using React and React Native.
-              I've successfully delivered projects across various industries, from EdTech to logistics, leveraging technologies like TypeScript, Redux, and Next.js to create scalable, maintainable solutions.
+              I&apos;ve successfully delivered projects across various industries, from EdTech to logistics, leveraging technologies like TypeScript, Redux, and Next.js to create scalable, maintainable solutions.
               My expertise extends to deploying apps across web and mobile platforms, driving efficiencies, and improving user experience.
             </p>
           </div>
