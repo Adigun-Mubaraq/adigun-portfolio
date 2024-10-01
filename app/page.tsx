@@ -14,7 +14,6 @@ import javasciptIcon from '../public/assets/images/javascript.png';
 import linkedinIcon from '../public/assets/icons/linkedin-icon.svg';
 import tailwindcssIcon from '../public/assets/images/tailwind-css.png';
 import hamburgerMenuIcon from '../public/assets/icons/hamburger-menu.svg';
-import reviewDashboardImg from '../public/assets/images/review-dashboard.png';
 
 export default function Home() {
 
@@ -192,13 +191,10 @@ export default function Home() {
       <section id="projects" className="py-14 px-12 lg:px-24 md:px-16 sm:px-8 mb-12">
         <p className="text-left text-gold font-bold text-3xl mb-8">Projects</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <div className="h-[280px] bg-[#3D3E42] cursor-pointer rounded-xl">
-            <Image
-              src={reviewDashboardImg}
-              alt='review-dashboard-project'
-              className="w-full h-full object-contain"
-            />
-          </div>
+          {[1, 2, 3].map((val) => (
+            <div key={val} className="h-[280px] bg-[#3D3E42] cursor-pointer rounded-xl">
+            </div>
+          ))}
         </div>
       </section>
       <section id="contact" className="py-14 px-12 lg:px-24 md:px-16 sm:px-8 mb-12">
